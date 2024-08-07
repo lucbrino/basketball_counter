@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "cursed";
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 200px;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+#home-counter {
+    width: 110px;
+    background: black;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 10px;
+    font-family: "cursed"; 
+    color: #F94F6D;
+    font-size: 50px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#guest-counter {
+    width: 110px;
+    background: black;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 10px;
+    font-family: "cursed"; 
+    color: #F94F6D;
+    font-size: 50px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.icr-btn {
+    font-family: "cursed"; 
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.cor-btn{
+    margin-top: 5px;
+}
+
+.dec-btn {
+    font-family: "cursed"; 
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.reset-div {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100px;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.reset-btn {
+    font-family: "cursed"; 
+    background: #1B244A;
+    margin: 40px;
+    padding-top: 5px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    height: 30px;
+}

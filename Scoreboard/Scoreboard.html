@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Basketball Counter </title>
+        <link rel="stylesheet" href="css.css" />
+    </head>
+    
+    <body>
+        <div class="scoreboard">
+            <div>
+                <h1>HOME</h1>
+                <p id="home-counter">0</p>
+                <button class="icr-btn" onclick="incr_home1()">+1</button>
+                <button class="icr-btn" onclick="incr_home2()">+2</button>
+                <button class="icr-btn" onclick="incr_home3()">+3</button>
+                <div class="cor-btn">
+                    <button class="dec-btn" onclick="dec_home1()">-1</button>
+                    <button class="dec-btn" onclick="dec_home2()">-2</button>
+                    <button class="dec-btn" onclick="dec_home3()">-3</button>
+                </div>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <p id="guest-counter">0</p>
+                <button class="icr-btn" onclick="incr_guest1()">+1</button>
+                <button class="icr-btn" onclick="incr_guest2()">+2</button>
+                <button class="icr-btn" onclick="incr_guest3()">+3</button>
+                <div class="cor-btn">
+                    <button class="dec-btn" onclick="dec_guest1()">-1</button>
+                    <button class="dec-btn" onclick="dec_guest2()">-2</button>
+                    <button class="dec-btn" onclick="dec_guest3()">-3</button>
+                </div>
+            </div> 
+        </div>
+        <div class="reset-div">
+            <button class="reset-btn" onclick="reset_counters()">Reset Counters</button>
+        </div>        
+        <script src="scoreboard.js"></script>
+    </body>
+</html>
